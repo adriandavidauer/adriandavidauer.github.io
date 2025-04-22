@@ -17,44 +17,27 @@
         }
 
         svg {
-            width: 600px;
-            height: 400px;
+            width: 800px;
+            height: 600px;
         }
 
         .arrow-text {
             font-size: 14px;
             fill: #333;
             opacity: 0;
-            animation: fadeAndMove 8s infinite;
+            animation: fadeAndMove 12s infinite;
         }
 
         /* Animation for each text */
         @keyframes fadeAndMove {
 
             0%,
-            12.5% {
+            8% {
                 opacity: 1;
-                transform: translate(0, 0);
             }
 
-            25% {
+            16% {
                 opacity: 0;
-            }
-
-            37.5%,
-            50% {
-                opacity: 1;
-                transform: translate(100px, -50px);
-            }
-
-            62.5% {
-                opacity: 0;
-            }
-
-            75%,
-            87.5% {
-                opacity: 1;
-                transform: translate(-100px, 50px);
             }
 
             100% {
@@ -68,42 +51,50 @@
         }
 
         .text-2 {
-            animation-delay: 2s;
+            animation-delay: 3s;
         }
 
         .text-3 {
-            animation-delay: 4s;
+            animation-delay: 6s;
         }
 
         .text-4 {
-            animation-delay: 6s;
+            animation-delay: 9s;
+        }
+
+        .icon {
+            font-size: 24px;
+            text-anchor: middle;
+            fill: #fff;
         }
     </style>
 </head>
 
 <body>
-    <svg viewBox="0 0 600 400">
+    <svg viewBox="0 0 800 600">
         <!-- Elements -->
-        <circle cx="100" cy="200" r="50" fill="#4CAF50" />
-        <text x="100" y="205" text-anchor="middle" fill="#fff" font-size="16">Data</text>
+        <circle cx="150" cy="300" r="70" fill="#4CAF50" />
+        <text x="150" y="305" class="icon">📊</text>
+        <text x="150" y="380" text-anchor="middle" fill="#333" font-size="16">Data</text>
 
-        <circle cx="300" cy="100" r="50" fill="#2196F3" />
-        <text x="300" y="105" text-anchor="middle" fill="#fff" font-size="16">Model</text>
+        <circle cx="400" cy="150" r="70" fill="#2196F3" />
+        <text x="400" y="155" class="icon">🧠</text>
+        <text x="400" y="230" text-anchor="middle" fill="#333" font-size="16">Model</text>
 
-        <circle cx="500" cy="200" r="50" fill="#FF5722" />
-        <text x="500" y="205" text-anchor="middle" fill="#fff" font-size="16">Application</text>
+        <circle cx="650" cy="300" r="70" fill="#FF5722" />
+        <text x="650" y="305" class="icon">🤖</text>
+        <text x="650" y="380" text-anchor="middle" fill="#333" font-size="16">Application</text>
 
         <!-- Arrows -->
-        <line x1="150" y1="200" x2="250" y2="120" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
-        <line x1="350" y1="120" x2="450" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
-        <line x1="450" y1="250" x2="150" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
-        <line x1="500" y1="200" x2="100" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+        <line x1="220" y1="300" x2="330" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+        <line x1="470" y1="180" x2="580" y2="300" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+        <line x1="580" y1="370" x2="220" y2="370" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
 
         <!-- Animated Text -->
-        <text x="200" y="150" class="arrow-text text-1">collect Data</text>
-        <text x="400" y="150" class="arrow-text text-2">train model</text>
-        <text x="300" y="270" class="arrow-text text-3">examin Model</text>
-        <text x="300" y="220" class="arrow-text text-4">Develop new use cases</text>
+        <text x="280" y="240" class="arrow-text text-1">1. Collect Data</text>
+        <text x="520" y="240" class="arrow-text text-2">2. Train Model</text>
+        <text x="400" y="420" class="arrow-text text-3">3. Fine-tune Model</text>
+        <text x="400" y="500" class="arrow-text text-4">4. Validate Use Cases</text>
 
         <!-- Arrowhead -->
         <defs>
