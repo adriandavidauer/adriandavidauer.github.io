@@ -14,22 +14,25 @@ My PhD research focuses on **Human-Robot Interaction (HRI)**, specifically on im
 - Producing outputs such as:
   - **Speaking/Not Speaking Labels** and
   - **Bounding Boxes** for active speakers.
+- optionally: Exploring multimodal Models for Audio-Visual Voice Activity Detection
 
 ## Research Pillars
 
 My PhD research is structured around three main pillars:
 
-### <span style="color:blue;">1. Data</span>
+### <span style="color:#228be6;">1. Data</span>
 This pillar focuses on the **VVAD-LRS3 dataset**, which I have created, and the associated pipelines for working with the data. These pipelines ensure efficient data preprocessing, augmentation, and management to support robust model training.
 
-### <span style="color:green;">2. Models</span>
+### <span style="color:#2f9e44;">2. Models</span>
 This pillar involves the development and training of models using the VVAD-LRS3 dataset. It also includes the algorithms for pre- and post-processing, as well as the implementation efforts to make these models accessible. This includes:
 - Optimized training pipelines.
 - Scalable and efficient model architectures.
 - Tools and libraries to facilitate easy integration.
 
-### <span style="color:red;">3. Application</span>
+### <span style="color:#c25d48;">3. Application</span>
 This pillar focuses on the **use cases** where the models are applied. It includes conducting experiments to validate the models in real-world scenarios and exploring their utility in various Human-Robot Interaction (HRI) contexts.
+
+![Research Process](../images/process.png)
 
 ## Motivation
 
@@ -52,19 +55,19 @@ By achieving these goals, I aim to bridge the gap between cutting-edge research 
 
 ### Published Papers
 
-1. **<span style="color:blue;">The VVAD-LRS3 Dataset for Visual Voice Activity Detection</span>**  
+1. **<span style="color:#228be6;">The VVAD-LRS3 Dataset for Visual Voice Activity Detection</span>**  
    *A. Lubitz, M. Valdenegro-Toro, F. Kirchner*  
    **Awarded with Best Student Paper Award**  
    Published: 2021  
    Presented at: [7th International Conference on Human Computer Interaction Theory and Applications](https://www.scitepress.org/Papers/2023/116129/116129.pdf)
   
 
-2. **<span style="color:green;">A Bayesian Approach to Context-based Recognition of Human Intention for Context-Adaptive Robot Assistance in Space Missions</span>**  
+2. **<span style="color:#2f9e44;">A Bayesian Approach to Context-based Recognition of Human Intention for Context-Adaptive Robot Assistance in Space Missions</span>**  
    *A. Lubitz, O. Arriaga, T. Hassan, N. Hoyer, E.A. Kirchner*  
    Published: 2022  
    Presented at: [SpaceCHI 2.0: Human-Computer Interaction for Space](https://www.dfki.de/fileadmin/user_upload/import/12351_lubitz_kimmi_cobabir_2022_-_Adrian_Lubitz.pdf)
 
-3. **<span style="color:green;">Cobair: A Python Library for Context-Based Intention Recognition in Human-Robot-Interaction</span>**  
+3. **<span style="color:#2f9e44;">Cobair: A Python Library for Context-Based Intention Recognition in Human-Robot-Interaction</span>**  
    *A. Lubitz, L. Gutzeit, F. Kirchner*  
    Published: 2023  
    Presented at: [32nd IEEE International Conference on Robot and Human Interactive Communication](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10309581)
@@ -73,33 +76,34 @@ By achieving these goals, I aim to bridge the gap between cutting-edge research 
 
 1. [**Review Paper: State of the Art of VVAD in HRI**](/review-paper/)
 
-2. [**<span style="color:red;">Impact of VVAD in HRI</span>**](/impact-of-VVAD/)  
+2. [**<span style="color:#c25d48;">Impact of VVAD in HRI</span>**](/impact-of-VVAD/)  
 
 
-3. [**<span style="color:green;">New Models for VVAD</span>**](/new-models/)  
+3. [**<span style="color:#2f9e44;">New Models for VVAD</span>**](/new-models/)  
 
-4. [**<span style="color:blue;">Comparison of VVAD Datasets</span>**](/data-comparison/)
+4. [**<span style="color:#228be6;">Comparison of VVAD Datasets</span>**](/data-comparison/)
 
-5. [**<span style="color:green;">Implementing Multi-Person VVAD</span>**](/multiperson-VVAD-implementation/)
+5. [**<span style="color:#2f9e44;">Implementing Multi-Person VVAD</span>**](/multiperson-VVAD-implementation/)
 
 
-6. [**<span style="color:red;">Experiments with Multi-Person VVAD</span>**](/multiperson-VVAD-experiments/)  
+6. [**<span style="color:#c25d48;">Experiments with Multi-Person VVAD</span>**](/multiperson-VVAD-experiments/)  
 
-7. [**<span style="color:blue;">A Benchmark for VVAD in HRI </span>**](/benchmark/)
+7. [**<span style="color:#228be6;">A Benchmark for VVAD in HRI </span>**](/benchmark/)
 
 
 ### Possible Side Papers (Could Be Theses)
 
-1. [**<span style="color:blue;">Social Data Analyzer</span>**](/data-analyzer/) 
+1. [**<span style="color:#228be6;">Social Data Analyzer</span>**](/data-analyzer/) 
    
 
-2. [**<span style="color:red;">HelloRic Project Presentation Paper</span>**](/hello-ric/)
+2. [**<span style="color:#c25d48;">HelloRic Project Presentation Paper</span>**](/hello-ric/)
 
 
 ### Possible Ideas for a Post-Doc
 
-1. [**<span style="color:green;">Speech Prediction</span>**](/speech-prediction/)
+1. [**<span style="color:#2f9e44;">Speech Prediction</span>**](/speech-prediction/)
   
 
-2. [**<span style="color:green;">Mind Wandering Detection</span>**](/mind-wandering/)
-   
+2. [**<span style="color:#2f9e44;">Mind Wandering Detection</span>**](/mind-wandering/)
+
+3. [**<span style="color:#2f9e44;">Video to Voice Filters</span>**](/voice-filters/)
