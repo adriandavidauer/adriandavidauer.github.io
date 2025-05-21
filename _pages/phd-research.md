@@ -99,9 +99,12 @@ By achieving these goals, I aim to bridge the gap between cutting-edge research 
 2. [**<span style="color:#c25d48;">HelloRic Project Presentation Paper</span>**](/hello-ric/)
 
 
+3. [**<span style="color:#c25d48;">CoBaIR Evaluation</span>**](/cobair-eval/)
+
+
 ### Possible Ideas for a Post-Doc
 
-1. [**<span style="color:#2f9e44;">Speech Prediction</span>**](/speech-prediction/)
+1. [**<span style="color:#c25d48;">Speech Prediction</span>**](/speech-prediction/)
   
 
 2. [**<span style="color:#2f9e44;">Mind Wandering Detection</span>**](/mind-wandering/)
