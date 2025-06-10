@@ -5,6 +5,19 @@ author_profile: true
 ---
 The Goal of this Paper is to implement a tool to analyze social datasets containing videos/images of faces.
      - Diversity (Age/Gender/Ethnicity/...)
-     - Leakage (Face recognition between test, validation, and training data).
-- This could be a Master Thesis.
+     - Optional: Leakage (Face recognition between test, validation, and training data).
+Tasks for this Thesis:
+1. Research existing methods to examine (social) datasets for diversity
+  1. Choose one or more suitable model(s)
+1. Research existing social datasets (including VVAD-LRS3 and WildVVAD)
+1. Implement a generic python library to analyze facial image and video data
+1. Use the library to compare VVAD-LRS3 and WildVVAD (amoung others)
+
+
+
+Staring Points:
+ - [FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age
+for Bias Measurement and Mitigation](https://openaccess.thecvf.com/content/WACV2021/papers/Karkkainen_FairFace_Face_Attribute_Dataset_for_Balanced_Race_Gender_and_Age_WACV_2021_paper.pdf)
+
+
 - This could be published in collaboration with the AG Diversity
