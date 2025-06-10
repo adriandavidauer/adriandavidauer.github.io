@@ -19,10 +19,10 @@ Tasks for this Thesis:
 
 
 
+
 Staring Points:
  - [FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age
 for Bias Measurement and Mitigation](https://openaccess.thecvf.com/content/WACV2021/papers/Karkkainen_FairFace_Face_Attribute_Dataset_for_Balanced_Race_Gender_and_Age_WACV_2021_paper.pdf)
-
 
 
 **This could be published in collaboration with the AG Diversity**
