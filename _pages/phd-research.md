@@ -6,15 +6,15 @@ author_profile: true
 
 ## Research Focus
 
-My PhD research focuses on **Human-Robot Interaction (HRI)**, specifically on improving **Human-Robot Conversations (HRC)** through visual models. The goal is to enhance **Visual Voice Activity Detection (VVAD)** and **Speaker Identification** to make them robust and applicable in HRI scenarios. This involves addressing several dimensions:
+My PhD research focuses on **Human-Robot Interaction (HRI)**, specifically on improving **Human-Robot Conversations (HRC)** through visual models. The goal is to enhance **Visual Voice Activity Detection (VVAD)** and **Active Speaker Detection(ASD)** to make them robust and applicable in HRI scenarios. This involves addressing several dimensions:
 
-- Transitioning from **single-person** to **multi-person** interactions.
+- Transitioning from **single-person**(VVAD) to **multi-person**(ASD) interactions.
 - Exploring input sizes, ranging from:
   - **Lip Features** -> **Face Features** -> **Lip Images** -> **Face Images**  -> **Full Images**.
 - Producing outputs such as:
   - **Speaking/Not Speaking Labels** and
   - **Bounding Boxes** for active speakers.
-- optionally: Exploring multimodal Models for Audio-Visual Voice Activity Detection
+- optionally: Exploring multimodal Models for Audio-Visual Voice Activity Detection and Active Speaker Detection
 
 ## Research Pillars
 
@@ -24,7 +24,7 @@ My PhD research is structured around three main pillars:
 This pillar focuses on the **VVAD-LRS3 dataset**, which I have created, and the associated pipelines for working with the data. These pipelines ensure efficient data preprocessing, augmentation, and management to support robust model training.
 
 ### <span style="color:#2f9e44;">2. Models</span>
-This pillar involves the development and training of models using the VVAD-LRS3 dataset. It also includes the algorithms for pre- and post-processing, as well as the implementation efforts to make these models accessible. This includes:
+This pillar involves the development and training of models using the VVAD-LRS3 and other datasets. It also includes the algorithms for pre- and post-processing, as well as the implementation efforts to make these models accessible. This includes:
 - Optimized training pipelines.
 - Scalable and efficient model architectures.
 - Tools and libraries to facilitate easy integration.
@@ -40,7 +40,7 @@ I believe it is crucial for humans to interact with robots in a natural way in t
 
 ## Goals
 
-The primary goal of my PhD is to make **VVAD** and **Speaker Identification** not only robust but also practical for robotics applications. This includes:
+The primary goal of my PhD is to make **VVAD** and **Active Speaker Detection** not only robust but also practical for robotics applications. This includes:
 
 1. Developing models that are efficient and scalable:
    - Creating smaller versions of the models that can run on less powerful hardware, beyond high-performance GPUs.
@@ -83,10 +83,10 @@ By achieving these goals, I aim to bridge the gap between cutting-edge research 
 
 4. [**<span style="color:#228be6;">Comparison of VVAD Datasets</span>**](/data-comparison/)
 
-5. [**<span style="color:#2f9e44;">Implementing Multi-Person VVAD</span>**](/multiperson-VVAD-implementation/)
+5. [**<span style="color:#2f9e44;">Implementing Vison-Only ASD</span>**](/VO-ASD-implementation/)
 
 
-6. [**<span style="color:#c25d48;">Experiments with Multi-Person VVAD</span>**](/multiperson-VVAD-experiments/)  
+6. [**<span style="color:#c25d48;">Experiments with Vison-Only ASD</span>**](/VO-ASD-experiments/)  
 
 7. [**<span style="color:#228be6;">A Benchmark for VVAD in HRI </span>**](/benchmark/)
 
