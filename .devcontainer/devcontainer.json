@@ -11,7 +11,5 @@
     ],
     "workspaceFolder": "/usr/src/app",
     "remoteUser": "vscode",
-    "forwardPorts": [
-        4000
-    ] // Portweiterleitung hinzufügen
+    "forwardPorts": [4000] // Add port forwarding
 }
