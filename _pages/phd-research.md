@@ -72,12 +72,13 @@ By achieving these goals, I aim to bridge the gap between cutting-edge research 
    Published: 2023  
    Presented at: [32nd IEEE International Conference on Robot and Human Interactive Communication](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10309581)
 
+4. **<span style="color:#c25d48;">Improving Human-Robot Communication in Noisy Environments with Visual Voice Activity Detection</span>**  
+   *A Gopikrishnan, A Auer, L Gutzeit*  
+   Published: 2025  
+   Presented at: [International Conference on Computer-Human Interaction Research and Applications](https://link.springer.com/chapter/10.1007/978-3-032-16451-3_7)
 ### Planned Papers
 
 1. [**Review Paper: State of the Art of VVAD in HRI**](/review-paper/)
-
-2. [**<span style="color:#c25d48;">Impact of VVAD in HRI</span>**](/impact-of-VVAD/)  
-
 
 3. [**<span style="color:#2f9e44;">New Models for VVAD</span>**](/new-models/)  
 
