@@ -29,9 +29,7 @@ COPY Gemfile ./
 # Install bundler and dependencies
 RUN gem install connection_pool:2.5.0
 RUN gem install bundler:2.3.26
-# RUN gem install nokogiri:1.18.7 faraday:2.13.0 json:2.10.2
 RUN bundle install
 
 # Command to serve the Jekyll site
 CMD ["jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml"]
-
