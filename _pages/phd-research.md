@@ -16,6 +16,8 @@ My PhD research focuses on **Human-Robot Interaction (HRI)**, specifically on im
   - **Bounding Boxes** for active speakers.
 - optionally: Exploring multimodal Models for Audio-Visual Voice Activity Detection and Active Speaker Detection
 
+Find more details in my [Research Proposal]({{ site.url }}/files/proposal.pdf)
+
 ## Research Pillars
 
 My PhD research is structured around three main pillars:
