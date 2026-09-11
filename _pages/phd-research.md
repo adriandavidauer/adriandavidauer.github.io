@@ -78,6 +78,17 @@ By achieving these goals, I aim to bridge the gap between cutting-edge research 
    *A Gopikrishnan, A Auer, L Gutzeit*  
    Published: 2025  
    Presented at: [International Conference on Computer-Human Interaction Research and Applications](https://link.springer.com/chapter/10.1007/978-3-032-16451-3_7)
+
+
+### Workshops
+
+1. **<span style="color:#2f9e44;">Extended Abstract: Active Speaker Detection for Humanoid Robots in Human-Robot Interactions</span>**  
+   *Adrian Auer, Arunima Chaurasia and Priya George*  
+   Accepted for [1st Workshop on AI-Based Humanoid Robot Design and Control Through the Lens of HRI, Evolution, and Biomechanics @ IJCAI 2026](https://hominoid-robot.dfki-bremen.de/)  
+   Extended Abstaract available [here]({{ site.url }}/files/extended_abstract.pdf)
+
+
+
 ### Planned Papers
 
 1. [**Review Paper: State of the Art of VVAD in HRI**](/review-paper/)
