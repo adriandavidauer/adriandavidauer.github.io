@@ -24,9 +24,10 @@ My PhD research is structured around three main pillars:
 
 ### <span style="color:#228be6;">1. Data</span>
 This pillar focuses on the **VVAD-LRS3 dataset**, which I have created, and the associated pipelines for working with the data. These pipelines ensure efficient data preprocessing, augmentation, and management to support robust model training.
+Since **VVAD-LRS3** was extracted from the LRS3 dataset which is no longer available the work on **VVAD-LRS3** is discontinued. I now use [AVA-ActiveSpeaker](https://research.google/pubs/ava-activespeaker-an-audio-visual-dataset-for-active-speaker-detection/) and [UniTalk](https://plnguyen2908.github.io/UniTalk-ASD-project-page/).
 
 ### <span style="color:#2f9e44;">2. Models</span>
-This pillar involves the development and training of models using the VVAD-LRS3 and other datasets. It also includes the algorithms for pre- and post-processing, as well as the implementation efforts to make these models accessible. This includes:
+This pillar involves the development and training of models using the aforementioned datasets. It also includes the algorithms for pre- and post-processing, as well as the implementation efforts to make these models accessible. This includes:
 - Optimized training pipelines.
 - Scalable and efficient model architectures.
 - Tools and libraries to facilitate easy integration.
@@ -93,18 +94,17 @@ By achieving these goals, I aim to bridge the gap between cutting-edge research 
 
 1. [**Review Paper: State of the Art of VVAD in HRI**](/review-paper/)
 
-3. [**<span style="color:#2f9e44;">New Models for VVAD</span>**](/new-models/)  
-
-4. [**<span style="color:#228be6;">Comparison of VVAD Datasets</span>**](/data-comparison/)
-
 5. [**<span style="color:#2f9e44;">Implementing Vison-Only ASD</span>**](/VO-ASD-implementation/)
-
 
 6. [**<span style="color:#c25d48;">Experiments with Vison-Only ASD</span>**](/VO-ASD-experiments/)  
 
-7. [**<span style="color:#228be6;">A Benchmark for VVAD in HRI</span>**](/benchmark/)
+8. [**<span style="color:#c25d48;">(A Wizard of Oz experiment) for Gaze Backchannels</span>**](/gaze-backchannel/)
 
-8. [**<span style="color:#c25d48;">A Wizard of Oz experiment for Gaze Backchannels</span>**](/gaze-backchannel/)
+7. [**<span style="color:#228be6;">A Benchmark for ASD in HRI</span>**](/benchmark/)
+
+
+~~3. [**<span style="color:#2f9e44;">New Models for VVAD</span>**](/new-models/)~~ *no longer applicable*
+~~4. [**<span style="color:#228be6;">Comparison of VVAD Datasets</span>**](/data-comparison/)~~ *no longer applicable*
 
 
 ### Possible Side Papers (Could Be Theses)
